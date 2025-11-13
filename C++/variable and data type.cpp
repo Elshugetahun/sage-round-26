@@ -1,9 +1,10 @@
 #include <iostream>
 
-using namespace std;\
+using namespace std;
 
 int main(){
-	int age =20;
+	const int age =20;
+	age = 25;
 	float speed =50.5;
 	double height =1.75;
 	char alp ='E';
