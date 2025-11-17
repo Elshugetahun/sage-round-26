@@ -4,8 +4,8 @@ using namespace std;
 
 int main(){
 	
-	double num=-0.5;
-	
+	double num;
+	cin>>num;
 	if(num>0){
 		cout<<"Postive";
 	}else if(num<0){
