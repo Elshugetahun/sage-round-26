@@ -31,4 +31,5 @@ int main(){
 		default:
 		 cout<<"No Day";
 	}
+	return 0;
 }
