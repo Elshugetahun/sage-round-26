@@ -7,9 +7,8 @@ int main(){
 	int num1[3] ={12,34,5};
 	int num2[3] ={34,1,5};
 	int num3[3] ={5,78,9};
-	int sumofnum1;
-	int sumofnum2;
-	int sumofnum3;
+	int sumofnum1, sumofnum2,sumofnum3;
+
 	
 	for(int i=0;i<3;i++){
 		sumofnum1=sumofnum1+num1[i];
