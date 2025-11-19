@@ -2,23 +2,33 @@
 
 using namespace std;
 
-double max(double a, double b){
+string max(int a, int b){
 	if(a>b){
-		return a;
-	}else {
-		return b;
+	
+	return to_string(a);
 	}
-      
+	 else if(a<b){
+		return to_string(b);
+	}	 
+	  else{
+	 	 return "equal";
+	  	 
+	  }
 }
-
 int main(){
-	
-	double a;
+  
+	int a; 
 	cin>>a;
-	double b;
-	cin>>b;
-
+	int b;
+	cin>>b;    
 	
-	cout<<max(a,b);
+	
+    cout<<max(a,b);
+	
+	
+}
+	
 
-}      
+
+
+  
