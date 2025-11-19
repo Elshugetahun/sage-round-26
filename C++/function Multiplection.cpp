@@ -2,9 +2,9 @@
 
 using namespace std;
 
-double sum(double a,double b){
+double multi(double a,double b){
 	double result;
-	result=a+b;
+	result=a*b;
 	
 	return result;
 }
@@ -17,5 +17,5 @@ int main(){
 	double b;
 	cout<<"Enter Number: ";
 	cin>>b;	
-	cout<<"The Sum is: "<<sum(a,b);
+	cout<<"The Sum is: "<<multi(a,b);
 }      
