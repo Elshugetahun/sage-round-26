@@ -9,9 +9,11 @@ double multi(double a, double b){
 
 int main(){
 	double num1;
-	cin>>"Enter Number: ";
+	cour<<"Enter Number: ";
+	cin>>"Enter Number: ">>num1;
 	double num2;
-	cin>>"Enter Number: ";
+	cour<<"The Anser is: "
+	cin>>"num2;
 	double result;
 	result=multi(a,b);
 	cour<<"The Anser is: "<<result;
