@@ -1,3 +1,17 @@
-h5{
-    color:green;
+.title{
+    color: blueviolet;
+}
+.paragraph{
+    font-size: 20px;
+}
+#titleh5{
+    color: green;
+    font-size:40px;
+}
+p, h6{
+    color: blue;
+}
+div h5{
+    color: brown;
+    font-size:40px;
 }
