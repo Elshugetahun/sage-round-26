@@ -21,7 +21,7 @@ int main(){
 			cout<<"Enter Number: ";
 			cin>>y;
 			cout<<""<<endl;
-			if(y>5){
+			if(y>5||y<0){
 				cout<<"ONLY ENTER NUMBER 0-5!"<<endl;
 				cout<<"     GAME OVER!"<<endl;
 	cout<<""<<endl;
