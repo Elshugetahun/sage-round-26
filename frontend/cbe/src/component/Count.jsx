@@ -7,7 +7,7 @@ function Count() {
 
     
   return (
-    <div style={{"display":"flex","flex-direction":"column","justify-content":"center","align-Items":"center"}} >
+    <div>
      <h1>{count}</h1>
      <button onClick={()=>{
         setCount(count+1)
@@ -18,7 +18,7 @@ function Count() {
       <button onClick={()=>{
         setCount(0)
      }}>reset</button>
-<h1>X is 10</h1>
+
     
 
     </div>
