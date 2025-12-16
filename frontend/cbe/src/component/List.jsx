@@ -1,4 +1,4 @@
-export default function List() {
+export default function List(props) {
   let car = ["Toyota", "BMW", "Ford", "Ford"];
   return (
     <div>
@@ -8,6 +8,9 @@ export default function List() {
           return <li key={index}>{car}</li>;
         })}
       </ul>
+      <button onClick={()=>{
+         props.setCount1(props.count1 + 1)
+      }}>Change Count One</button>
     </div>
   );
 }
