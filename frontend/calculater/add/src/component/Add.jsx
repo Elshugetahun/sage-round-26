@@ -31,7 +31,7 @@ export default function Add() {
       <br />
       <button
         onClick={() => {
-          setSum(num1 - num2);
+          setSum(Number(num1) - Number(num2));
         }}
       >
         Add
